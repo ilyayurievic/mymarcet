@@ -1,0 +1,41 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-size: 14px;
+	line-height: 32px;
+	@extend %dmsans-700;
+	
+}
+
+.header-container {
+	max-width: 1800px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.container{
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+// .header{
+// 	position: fixed;
+// }
+
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.footer{
+	flex: 0 0 auto;
+}
